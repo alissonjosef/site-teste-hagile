@@ -312,10 +312,12 @@ footer .list-socials i {
         }
 
         .quem-somos {
-            background-color: #00A652;
+            background: linear-gradient(0deg, #00A652, #00A652), url(img/baner01.jpg);
+            background-size: cover;
         }
-        
     }
+
+
 }
 
 
@@ -323,6 +325,15 @@ footer .list-socials i {
 
 .w100 {
     width: 100%;
+}
+
+.carousel-item {
+
+    &.active {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
 .carousel-inner {
