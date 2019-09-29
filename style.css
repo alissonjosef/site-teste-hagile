@@ -1,11 +1,11 @@
 @font-face{
 	font-family: "bahnschrift";
-	src:url("..font/bahnschrift.ttf");
+	src:url("font/bahnschrift.ttf");
 	font-size: 1em;
 }
 
 body{
-  background: url(../img/fundo.png) no-repeat center center fixed;
+  background: url(/img/fundo.png) no-repeat center center fixed;
   background-size: cover; /*Css padrão*/
   -webkit-background-size: cover; /*Css safari e chrome*/
   -moz-background-size: cover; /*Css firefox*/
