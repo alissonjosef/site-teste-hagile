@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 
   <link rel="stylesheet" href="style.css">
 
@@ -85,10 +85,8 @@
     </div>
   </header>
 
-  <section>
-
+  <section class="flex flex-column">
     <div id="banner">
-
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -131,7 +129,7 @@
         </a>
       </div>
 
-
+      <!-- 
       <div id="submenu">
 
         <div class="container"></div>
@@ -151,17 +149,51 @@
       <div class="tudo">
         <div class="menu">Menu</div>
         <div class="conteudo">Conteúdo</div>
+      </div> -->
+
+    </div>
+
+    <div class="flex flex-row container-main center">
+      <div class="container-section flex flex-column x-center">
+        <div class="flex flex-row space-around submenu w100">
+          <button class="btn shadow" onclick="alert('Olá')">EVENTOS</button>
+          <button class="btn shadow" onclick="alert('Olá')">NA PALHA DA CULTURA</button>
+          <button class="btn shadow" onclick="alert('Olá')">ARTIGO</button>
+          <button class="btn shadow" onclick="alert('Olá')">JORNAL DIGITAL</button>
+          <button class="btn shadow" onclick="alert('Olá')">LINKS ÚTEIS</button>
+          <button class="btn shadow" onclick="alert('Olá')">ESTATÍSTICAS</button>
+        </div>
+
+
+        <h3>EVENTOS</h3>
+
+
+        <div class="flex flex-row w100 space-around">
+          <div class="evento flex flex-row">
+            <div class="date">
+              <h2>21 JUN</h2>
+            </div>
+            <p>asdasdasdasdas</p>
+
+            <button class="add">+</button>
+          </div>
+          <div class="evento flex flex-row">
+            <div class="date">
+              <h2>21 JUN</h2>
+            </div>
+            <p>asdasdasdasdas</p>
+
+            <button class="add">+</button>
+          </div>
+        </div>
       </div>
 
     </div>
-
-    </div>
-
   </section>
 
 
 
-  <footer>
+  <!-- <footer>
 
     <div class="row row-cinza-claro">
 
@@ -251,10 +283,8 @@
 
     </div>
 
-  </footer>
+  </footer> -->
 
-
-  </footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
